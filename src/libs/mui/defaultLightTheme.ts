@@ -1,5 +1,6 @@
-import {defaultTheme} from './defaultTheme';
 import {PaletteOptions, ThemeOptions} from '@mui/material';
+
+import {defaultTheme} from './defaultTheme';
 
 /**
  * Light theme color palette
