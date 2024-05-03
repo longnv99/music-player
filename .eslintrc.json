@@ -8,7 +8,6 @@
     "prefer-rest-params": "off",
     "no-empty-pattern": "off",
     "no-var": "off",
-    "semi": ["error", "never"],
     "quotes": ["error", "single"],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "only-multiline"]

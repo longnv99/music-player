@@ -1,4 +1,5 @@
 import {PaletteOptions, ThemeOptions} from '@mui/material';
+
 import {defaultTheme} from './defaultTheme';
 
 /**

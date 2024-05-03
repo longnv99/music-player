@@ -1,9 +1,11 @@
+import {createTheme as createMuiTheme} from '@mui/material';
+
 import {config} from '@/config';
 import {THEME_MODE} from '@/constants';
+
+import {generateComponentsStyles} from './components';
 import {defaultDarkTheme} from './defaultDarkTheme';
 import {defaultLightTheme} from './defaultLightTheme';
-import {generateComponentsStyles} from './components';
-import {createTheme as createMuiTheme} from '@mui/material';
 
 const createTheme = () => {
   const theme =
