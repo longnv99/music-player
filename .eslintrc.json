@@ -1,3 +1,17 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "prettier"],
+  "plugins": ["simple-import-sort", "unused-imports"],
+  "rules": {
+    "simple-import-sort/imports": 1,
+    "simple-import-sort/exports": 1,
+    "unused-imports/no-unused-imports": 1,
+    "prefer-rest-params": "off",
+    "no-empty-pattern": "off",
+    "no-var": "off",
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "arrow-parens": ["error", "as-needed"],
+    "comma-dangle": ["error", "only-multiline"]
+  }
+
 }
